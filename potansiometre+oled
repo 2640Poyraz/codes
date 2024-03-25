@@ -4,7 +4,7 @@ from time import sleep
 
 
 i2c = SoftI2C(scl=Pin(22), sda=Pin(21))
-pot = ADC(Pin(32))
+pot = ADC(Pin(34))
 pot.width(ADC.WIDTH_10BIT)
 pot.atten(ADC.ATTN_11DB)
 
